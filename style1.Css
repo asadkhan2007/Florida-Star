@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.container{
+    background-color: rgb(51, 51, 199);
+    display: flex;
+    justify-content:space-around;
+    height: 50px;
+}
+.container p{
+    font-size: 15px;
+    color: white;
+    padding-top: 15px;
+
+}
+.container h4{
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo{
+height: 100px;
+width: 150px;
+background-image: url(logo.png);
+background-size: cover;
+background-position: center;
+
+}
+.menu a{
+word-spacing: 3px;
+color: rgba(19, 18, 18, 0.815);
+padding: 10px;
+font-weight: 500;
+}
+
+
+.register a{
+color: white;
+padding: 10px 20px;
+font-size: 15px;
+background: rgb(42, 230, 42);
+border-radius: 8px;
+
+}
+
+.navbar{
+    height: 550px;
+    background-image: linear-gradient(#0c4fbdcc, #0c4fbdcc),
+     url(home-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+}
+
+.navbar h1{
+    font-family: sans-serif ;
+    font-size: 45px;
+    color: white;
+   padding-left: 150px;
+   padding-top: 50px;
+}
+.navbar h2{
+    font-family: sans-serif;
+    font-size: 45px;
+    color:rgb(43, 209, 43);
+    padding-left: 150px;
+    padding-top: 5px;
+
+}
+.navbar p{
+    padding-left: 150px;
+    color: white;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 25px;
+   
+}
+
+.banner{
+    height:70px;
+    background-color: rgb(32, 207, 32);
+
+}
+.navbar div h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    color: white;
+    padding-top:  20px;
+    padding-left: 150px;
+  
+}
+
+
+.navbar h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+    font-weight: 400px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 150px;
+    line-height: 25px;
+}
+
+.banner h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.how{
+    background-color: rgba(198, 224, 228, 0.418);
+    height: 300px;
+    margin-top: 15px;
+   }
+    .how h2{
+        font-size: 2.5em;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: rgb(20, 22, 22);
+
+    }
+    .how p{
+        font-size: 20px;
+        text-align: center;
+        color: rgba(24, 4, 4, 0.658);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .how img{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        display: inline;
+        position: relative;
+        top: 40%;
+        left: 35%;
+       transform: translate(-45%,-50%);
+       padding: 70px;
+       padding-top: 30px;
+    }
+   .inter{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+   }
+   #box1{
+    height: 200px;
+    width: 330px;
+    background-image: url(2.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-position: top;
+    margin-right: 50px;
+    box-shadow: 3px 3px 10px 5px rgba(173, 172, 172, 0.623);
+   }
+   #box1 h2{
+    font-size: 18px;
+    padding-top: 100px;
+
+   }
+   #box1 p{
+    font-size: 14px;
+    color: rgba(24, 24, 24, 0.692);
+    line-height: 20px;
+   }
+   #box2{
+    height: 200px;
+    width: 330px;
+    background-image: url(3.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-position: top;
+    box-shadow: 3px 3px 10px 5px rgba(173, 172, 172, 0.623);
+   }
+   #box2 h2{
+    font-size: 18px;
+    padding-top: 100px;
+
+   }
+   #box2 p{
+    font-size: 14px;
+    color: rgba(24, 24, 24, 0.692);
+    line-height: 20px;
+   }
+   #box3{
+    height: 200px;
+    width: 330px;
+    background-image: url(4.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-position: top;
+    margin-left: 50px;
+    box-shadow: 3px 3px 10px 5px rgba(173, 172, 172, 0.623);
+   }
+   #box3 h2{
+    font-size: 18px;
+    padding-top: 100px;
+
+   }
+   #box3 p{
+    font-size: 14px;
+    color: rgba(24, 24, 24, 0.671);
+    line-height: 20px;
+   }
+    .section{
+        background-color: whitesmoke;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        margin-top: 20px;
+    }
+    .section  h1{
+        color:black;
+        font-family:sans-serif;
+        display: inline;
+        font-weight: 800;
+        padding-left: 50px;
+        padding-bottom: 4px;
+        
+    }
+    .section div span{
+        color:rgb(43, 209, 43);
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+      
+    }
+    .section h2{
+        color: black;
+        font-family: sans-serif;
+        font-weight: 550;
+        padding-top: 20px;
+        font-size: 20px;
+        display: flex;
+       justify-content: flex-start;
+       padding-left: 50px;
+    }
+    .section p{
+        width:600px;
+        color: rgba(22, 22, 22, 0.76);
+        font-family: sans-serif;
+        font-size: 18px;
+        padding-left: 50px;
+        text-align: start;
+        line-height: 25px;
+
+    }
+    .section div img{  
+        height: 340px;
+        width: 400px;
+        padding-top:  30px;  
+    }
+    .background{
+        height: 350px;
+        background-image:  linear-gradient(#0c4fbdcc, #0c4fbdcc),
+        url(1.webp); 
+        background-size: cover;
+        background-position: center;
+       margin-top: 580px;
+       padding-top: 80px;
+       
+    }
+    .background div h1{
+        color: white;
+        font-family:sans-serif;
+        display: inline;
+        font-weight: 800;
+        padding-left: 150px;
+       
+        
+    }
+    
+    .background  div span{
+        color:rgb(43, 209, 43);
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 30px; 
+    }
+    .background p{
+        font-size: 15px;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 150px;
+        line-height: 25px;
+    }
+    .register a{
+        color: white;
+        padding: 10px 10px;
+        font-size: 15px;
+        background: rgb(42, 230, 42);
+        border-radius: 5px;
+        margin-left: 150px;
+        
+ }
+ .display{
+    background-color: rgba(238, 231, 231, 0.836);
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.display div img{  
+    height: 340px;
+    width: 400px;
+   
+}
+.display  h1{
+    color:black;
+    font-family:sans-serif;
+    display: inline;
+    font-weight: 600;
+    padding-bottom: 30px;
+    
+}
+
+.display h2{
+    color: rgb(41, 41, 196);
+    font-family: sans-serif;
+    font-weight: 550;
+    padding-top: 20px;
+    font-size: 17px;
+    display: flex;
+   justify-content: flex-start;
+   
+}
+#class{
+    background-color: lightgreen;
+    width: 15px;
+    height: 15px;
+    
+}
+.display h5{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgba(26, 24, 24, 0.733);
+    padding-top: 5px;
+    line-height: 30px;
+}
+.display p{
+    width:600px;
+    color: rgba(22, 22, 22, 0.76);
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: start;
+    line-height: 25px;
+    padding-top: 10px;
+
+}
+.center{
+    height: 400px;
+    background-image:  linear-gradient(#0c4fbdcc, #0c4fbdcc),
+    url(1.webp); 
+    background-size: cover;
+    background-position: center;
+   margin-top: 1900px;
+   padding-top: 40px;
+   
+}
+.center  h1{
+    color: white;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 600;
+    text-align: center;   
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    color: white;
+    line-height: 30px;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.center p{
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    line-height: 25px;
+    text-align: center;
+}
+.common a{
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    background: rgb(42, 230, 42);
+    border-radius: 5px;
+    margin-left: 600px;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.collum{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 190px 190px 190px;
+    justify-content:center;
+    background-color: white;
+}
+.box{
+    border-top: 4px solid rgba(16, 17, 17, 0.726);
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 10px 5px rgba(173, 172, 172, 0.623);
+}
+.box h1{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bolder;
+    color: rgba(46, 45, 45, 0.288);
+    padding-top: 10px;
+}
+.box h2{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+}
+.box p{
+    font-size: 14px;
+    color: rgba(43, 43, 43, 0.781);
+    line-height: 20px;
+    padding-top: 5px;
+}
+.span h1{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+.span p{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.card{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 220px 220px 220px;
+    justify-content:center;
+    background-color: white;
+    
+}
+.box1{
+    box-shadow: 3px 3px 10px 5px rgba(173, 172, 172, 0.623);
+}
+.cardh{
+    font-size:8px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
